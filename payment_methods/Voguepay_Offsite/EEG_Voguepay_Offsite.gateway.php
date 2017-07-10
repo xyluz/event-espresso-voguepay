@@ -123,7 +123,7 @@ class EEG_Voguepay_Offsite extends EE_Offsite_Gateway{
 			'fail_url' => $return_url,
 			'v_merchant_id'=> 'qa331322179752',
 			'merchant_ref' => '234-567-890',
-			'developer_code' => '',
+			'developer_code' => '5963e64bb755c',
 			'store_id' => 25,
 			'memo' => "Registration",
 			
