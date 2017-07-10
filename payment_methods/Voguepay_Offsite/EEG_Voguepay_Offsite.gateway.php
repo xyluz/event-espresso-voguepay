@@ -117,11 +117,11 @@ class EEG_Voguepay_Offsite extends EE_Offsite_Gateway{
 		
 			
 		$payment->set_redirect_args( array(
-			'total' => $payment->amount()*100,			
+			'total' => $payment->amount(),			
 			'notify_url' => $return_url,
 			'success_url' => $return_url,
 			'fail_url' => $return_url,
-			'v_merchant_id'=> 'qa331322179752',
+			'v_merchant_id'=> '9275-0052962',
 			'merchant_ref' => '234-567-890',
 			'developer_code' => '5963e64bb755c',
 			'store_id' => 25,
