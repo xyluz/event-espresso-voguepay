@@ -14,7 +14,7 @@ if (!defined('EVENT_ESPRESSO_VERSION')) {
  * @author				Mike Nelson
  *
  */
-class EE_PMT_Interswitch_Offsite extends EE_PMT_Base{
+class EE_PMT_Voguepay_Offsite extends EE_PMT_Base{
 
 	/**
 	 *
@@ -22,9 +22,9 @@ class EE_PMT_Interswitch_Offsite extends EE_PMT_Base{
 	 * @return EE_PMT_New_Payment_Method_Offsite
 	 */
 	public function __construct($pm_instance = NULL) {
-		require_once($this->file_folder().'EEG_Interswitch_Offsite.gateway.php');
-		$this->_gateway = new EEG_Interswitch_Offsite();
-		$this->_pretty_name = __("Interswitch Offsite", 'event_espresso');
+		require_once($this->file_folder().'EEG_Voguepay_Offsite.gateway.php');
+		$this->_gateway = new EEG_Voguepay_Offsite();
+		$this->_pretty_name = __("Voguepay Offsite", 'event_espresso');
 		parent::__construct($pm_instance);
 	}
 

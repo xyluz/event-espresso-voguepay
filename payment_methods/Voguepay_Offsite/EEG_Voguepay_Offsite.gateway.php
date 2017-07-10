@@ -17,7 +17,7 @@ if (!defined('EVENT_ESPRESSO_VERSION')) {
  * @author				Mike Nelson
  *
  */
-class EEG_Interswitch_Offsite extends EE_Offsite_Gateway{
+class EEG_Voguepay_Offsite extends EE_Offsite_Gateway{
 
 	/**
 	 * This gateway supports all currencies by default. To limit it to
